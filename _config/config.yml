@@ -1,0 +1,8 @@
+---
+Name: 'SEO_OpenGraph'
+Before:
+  - '#SEO_Metadata'
+---
+SiteTree:
+  extensions:
+    - 'SEO_OpenGraph_SiteTree_DataExtension'

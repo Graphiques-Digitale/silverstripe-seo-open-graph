@@ -1,0 +1,40 @@
+{
+  "name": "graphiques-digitale/silverstripe-seo-open-graph",
+  "description": "Adds Open Graph metadata to Pages",
+  "type": "silverstripe-module",
+  "homepage": "https://github.com/Graphiques-Digitale/silverstripe-seo-open-graph",
+  "keywords": [
+    "silverstripe",
+    "seo",
+    "metadata",
+    "module",
+    "search",
+    "engine",
+    "optimisation",
+    "optimization",
+    "open graph",
+    "facebook"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrew Gerber",
+      "email": "atari@graphiquesdigitale.net"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Graphiques-Digitale/silverstripe-seo-open-graph/issues"
+  },
+  "require": {
+    "graphiques-digitale/silverstripe-seo-metadata": "*"
+  },
+  "extra": {
+    "installer-name": "silverstripe-seo-open-graph",
+    "screenshots": [
+      "screenshot-1.png",
+      "screenshot-2.png",
+      "screenshot-3.png",
+      "screenshot-4.png"
+    ]
+  }
+}
