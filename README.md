@@ -11,9 +11,6 @@ Title inspired by: [http://moz.com/learn/seo/title-tag][3]
 It is intended to be used with it's siblings:
 * [`Graphiques-Digitale/silverstripe-seo-icons`](https://github.com/Graphiques-Digitale/silverstripe-seo-icons)
 * [`Graphiques-Digitale/silverstripe-seo-facebook-insights`](https://github.com/Graphiques-Digitale/silverstripe-seo-facebook-insights)
-* [`Graphiques-Digitale/silverstripe-seo-open-graph`](https://github.com/Graphiques-Digitale/silverstripe-seo-open-graph)
-* [`Graphiques-Digitale/silverstripe-seo-twitter-cards`](https://github.com/Graphiques-Digitale/silverstripe-seo-twitter-cards)
-* [`Graphiques-Digitale/silverstripe-seo-schema-dot-org`](https://github.com/Graphiques-Digitale/silverstripe-seo-schema-dot-org)
 
 These are all optional and fragmented from the alpha version [`SSSEO`](https://github.com/Graphiques-Digitale/SSSEO), which is now redundant.
 
@@ -26,12 +23,12 @@ Also, a good overview: [5 tips for SEO with Silverstripe 3][2].
 #### Composer ####
 
 * `composer require graphiques-digitale/silverstripe-seo-metadata`
-* run `~/dev/build/?flush`
+* rebuild using `/dev/build/?flush`
 
 #### From ZIP ####
 
 * Place the extracted folder `silverstripe-seo-metadata-{version}` into `silverstripe-seo-metadata` in the SilverStripe webroot
-* run `~/dev/build/?flush`
+* rebuild using `/dev/build/?flush`
 
 ## CMS Usage ##
 
@@ -61,6 +58,12 @@ This will output something along the lines of:
     <link rel="canonical" href="http://dev.seo.silverstripe.org/" />
     <title>Your Site Name | Home - your tagline here</title>
     <meta name="description" content="Welcome to SilverStripe! This is the default home page. You can edit this page by opening the CMS. You can now access the developer documentation, or begin the tutorials." />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://dev.seo.silverstripe.org/" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Home" />
+    <meta property="og:description" content="Welcome to SilverStripe! This is the default home page. You can edit this page by opening the CMS. You can now access the developer documentation, or begin the tutorials." />
     <!-- END SEO -->
 
     <!-- further includes ~ viewport, etc. -->
@@ -69,7 +72,7 @@ This will output something along the lines of:
 
 ## Issue Tracker ##
 
-Issues are tracked on GitHub @ [Issue Tracker](https://github.com/Graphiques-Digitale/silverstripe-seo-metadata/issues)
+Issues are tracked on GitHub @ [Issue Tracker](https://github.com/Graphiques-Digitale/silverstripe-seo-open-graph/issues)
 
 ## Development and Contribution ##
 
