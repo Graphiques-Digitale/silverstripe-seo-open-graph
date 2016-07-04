@@ -22,12 +22,12 @@ Also, a good overview: [5 tips for SEO with Silverstripe 3][2].
 
 #### Composer ####
 
-* `composer require graphiques-digitale/silverstripe-seo-metadata`
+* `composer require graphiques-digitale/silverstripe-seo-open-graph`
 * rebuild using `/dev/build/?flush`
 
 #### From ZIP ####
 
-* Place the extracted folder `silverstripe-seo-metadata-{version}` into `silverstripe-seo-metadata` in the SilverStripe webroot
+* Place the extracted folder `silverstripe-seo-open-graph-{version}` into `silverstripe-seo-open-graph` in the SilverStripe webroot
 * rebuild using `/dev/build/?flush`
 
 ## CMS Usage ##
