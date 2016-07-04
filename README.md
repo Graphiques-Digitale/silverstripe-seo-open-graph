@@ -1,5 +1,3 @@
-![Screenshot](screenshot-1.png)
-
 ## Overview ##
 
 This is the core metadata module for the graphiques-digitale/silverstripe-seo-* module collection.
@@ -82,11 +80,9 @@ Please get in touch @ [`hello@graphiquesdigitale.net`](mailto:hello@graphiquesdi
 
 MIT License
 
+![Screenshot](screenshot-1.png)
+
 ![Screenshot](screenshot-2.png)
-
-![Screenshot](screenshot-3.png)
-
-![Screenshot](screenshot-4.png)
 
 
 [1]: https://www.iacquire.com/blog/18-meta-tags-every-webpage-should-have-in-2013
