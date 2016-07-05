@@ -1,14 +1,12 @@
 ## Overview ##
 
-This is the core metadata module for the graphiques-digitale/silverstripe-seo-* module collection.
+Enables Open Graph metadata on pages.
 
-It enables enhanced **_title_** features, **_character set_** selection, **_canonical URLs_** and an enhanced fall-back **_description_** using `$Content.FirstParagraph()`.
-
-Title inspired by: [http://moz.com/learn/seo/title-tag][3]
+Inspired by: [http://ogp.me][8]
 
 It is intended to be used with it's siblings:
 * [`Graphiques-Digitale/silverstripe-seo-icons`](https://github.com/Graphiques-Digitale/silverstripe-seo-icons)
-* [`Graphiques-Digitale/silverstripe-seo-facebook-insights`](https://github.com/Graphiques-Digitale/silverstripe-seo-facebook-insights)
+* [`Graphiques-Digitale/silverstripe-seo-facebook-domain-insights`](https://github.com/Graphiques-Digitale/silverstripe-seo-facebook-domain-insights)
 
 These are all optional and fragmented from the alpha version [`SSSEO`](https://github.com/Graphiques-Digitale/SSSEO), which is now redundant.
 
@@ -59,7 +57,7 @@ This will output something along the lines of:
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://dev.seo.silverstripe.org/" />
-    <meta property="og:site_name" content="" />
+    <meta property="og:site_name" content="Your Site Name" />
     <meta property="og:title" content="Home" />
     <meta property="og:description" content="Welcome to SilverStripe! This is the default home page. You can edit this page by opening the CMS. You can now access the developer documentation, or begin the tutorials." />
     <!-- END SEO -->
