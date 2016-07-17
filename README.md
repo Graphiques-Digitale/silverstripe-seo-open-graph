@@ -2,6 +2,8 @@
 
 Enables Open Graph metadata on pages.
 
+It is a modular extension for [graphiques-digitale/silverstripe-seo-metadata](https://github.com/Graphiques-Digitale/silverstripe-seo-metadata)
+
 Inspired by: [http://ogp.me][8]
 
 It is intended to be used with it's siblings:
@@ -76,7 +78,10 @@ Please get in touch @ [`hello@graphiquesdigitale.net`](mailto:hello@graphiquesdi
 
 ## License ##
 
-MIT License
+BSD-3Clause license
+
+See @ [Why BSD?][12]
+
 
 ![Screenshot](screenshot-1.png)
 
@@ -94,3 +99,4 @@ MIT License
 [9]: https://dev.twitter.com/cards/overview
 [10]: https://developers.google.com/+/web/snippet/
 [11]: https://mathiasbynens.be/notes/touch-icons
+[12]: https://www.silverstripe.org/blog/why-bsd/
