@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Graphiques-Digitale/silverstripe-seo-open-graph.svg?branch=master)](https://travis-ci.org/Graphiques-Digitale/silverstripe-seo-open-graph) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Graphiques-Digitale/silverstripe-seo-open-graph/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Graphiques-Digitale/silverstripe-seo-open-graph/?branch=master)
+
 ## Overview ##
 
 Enables Open Graph metadata on pages.
