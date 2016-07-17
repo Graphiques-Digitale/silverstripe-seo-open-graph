@@ -30,18 +30,6 @@ class SEO_OpenGraph_SiteTree_DataExtension extends DataExtension {
 		'OpenGraphImage' => 'Image',
 	);
 
-	//
-//	private static $defaults = array(
-//		'OpenGraphData' => array(
-//			'og:type' => 'website',
-//			'og:url' => null,
-//			'og:site_name' => null,
-//			'og:title' => null,
-//			'og:description' => null,
-//			'og:image' => null
-//		)
-//	);
-
 
 	/* Variables
 	------------------------------------------------------------------------------*/
@@ -50,9 +38,6 @@ class SEO_OpenGraph_SiteTree_DataExtension extends DataExtension {
 	protected static $types = array(
 		'website' => 'Website (default)',
 		'off' => 'Disabled for this page'
-// 		'article' => 'Article',
-//		'book' => 'Book',
-//		'profile' => 'Profile',
 	);
 
 	//
@@ -181,8 +166,6 @@ class SEO_OpenGraph_SiteTree_DataExtension extends DataExtension {
 				$data['og:title'] = $owner->OpenGraphTitle;
 				// description
 				$data['og:description'] = $owner->OpenGraphDescription;
-				// image is set normally
-//				$data['og:image'] = $owner->OpenGraphImage;
 			}
 
 			//
